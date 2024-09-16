@@ -30,6 +30,7 @@ ALLOWED_HOSTS = [
     '8000-marceillo-boutiqueadov2-hsxl095p5z5.ws.codeinstitute-ide.net'
     ]
 
+# CSRF_TRUSTED_ORIGINS = ['https://8000-marceillo-boutiqueadov2-hsxl095p5z5.ws.codeinstitute-ide.net/'] 
 
 # Application definition
 
@@ -91,6 +92,15 @@ AUTHENTICATION_BACKENDS = [
 
 SITE_ID = 1  # allauth
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
+ACCOUNT_USERNAME_MIN_LENGTH = 4
+LOGIN_URL = '/accounts/login/'
+LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
