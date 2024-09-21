@@ -28,9 +28,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = [
     '8000-marceillo-boutiqueadov2-hsxl095p5z5.ws.codeinstitute-ide.net'
+
     ]
 
-# CSRF_TRUSTED_ORIGINS = ['https://8000-marceillo-boutiqueadov2-hsxl095p5z5.ws.codeinstitute-ide.net/'] 
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-marceillo-boutiqueadov2-hsxl095p5z5.ws.codeinstitute-ide.net',
+    ] 
 
 # Application definition
 
