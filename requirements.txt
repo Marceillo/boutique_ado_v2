@@ -1,5 +1,7 @@
 asgiref==3.8.1
 Django==4.2.8
 django-allauth==64.2.1
+django-crispy-forms==2.3
+pillow==10.4.0
 pytz==2024.2
 sqlparse==0.5.1
