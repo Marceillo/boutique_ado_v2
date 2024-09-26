@@ -1,0 +1,8 @@
+Collecting django-crispy-forms
+  Downloading django_crispy_forms-2.3-py3-none-any.whl.metadata (5.1 kB)
+Requirement already satisfied: django>=4.2 in /workspace/.pip-modules/lib/python3.12/site-packages (from django-crispy-forms) (4.2.8)
+Requirement already satisfied: asgiref<4,>=3.6.0 in /workspace/.pip-modules/lib/python3.12/site-packages (from django>=4.2->django-crispy-forms) (3.8.1)
+Requirement already satisfied: sqlparse>=0.3.1 in /workspace/.pip-modules/lib/python3.12/site-packages (from django>=4.2->django-crispy-forms) (0.5.1)
+Downloading django_crispy_forms-2.3-py3-none-any.whl (31 kB)
+Installing collected packages: django-crispy-forms
+Successfully installed django-crispy-forms-2.3

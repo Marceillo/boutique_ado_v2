@@ -1,8 +1,13 @@
 {% extends "base.html" %}
 {% load static %}
 {% load bag_tools %}
-{ % block extra_css %}
+
+{% load crispy_forms_tags %}
+{% block extra_css %}
+
     <link rel="stylesheet" href="{% static 'checkout/css/checkout.css' %}">
+ 
+{% endblock %}
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -17,13 +22,13 @@
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4">Shopping Bag</h2>
+                <h2 class="logo-font mb-4">Checkout</h2>
                 <hr>
             </div>
         </div>
 
         <div class="row">
-            <div class="col-12 col-lg-l6 order-lg-last mb-5">
+            <div class="col-12 col-lg-6 order-lg-last mb-5">
                 <p class="text-muted">Order Summary ({{ product_count }})</p>
                 <div class="row">
                     <div class="col-7 offset-2">
