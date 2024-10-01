@@ -1,13 +1,10 @@
 {% extends "base.html" %}
 {% load static %}
 
-
-{% load crispy_forms_tags %}
 {% block extra_css %}
-
     <link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
- 
 {% endblock %}
+
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -26,14 +23,5 @@
                 <hr>
             </div>
         </div>
+        {{ profile }}
 {% endblock %}
-
-<div class="overlay"></div>
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <hr>
-            <h2 class="logo-font mb-4">Profile</h2>
-            <hr>
-        </div>
-    </div>
