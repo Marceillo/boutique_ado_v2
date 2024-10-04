@@ -28,9 +28,9 @@ SECRET_KEY = 'django-insecure-k0u7ue77rba8nw%*9%$qo=o$2zl3pum!$*d#1c4b!vif$fmo9p
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-marceillo-boutiqueadov2-hsxl095p5z5.ws.codeinstitute-ide.net'
-
-    ]
+    'boutiqueadov2-da8587bc9277.herokuapp.com',
+    '8000-marceillo-boutiqueadov2-hsxl095p5z5.ws.codeinstitute-ide.net',
+]
 
 CSRF_TRUSTED_ORIGINS = [
     'https://8000-marceillo-boutiqueadov2-hsxl095p5z5.ws.codeinstitute-ide.net',
