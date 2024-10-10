@@ -64,6 +64,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap4',
     'profiles',
+    'django_extensions',
     
     # other
     'storages',
